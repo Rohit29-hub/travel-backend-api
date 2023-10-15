@@ -1,0 +1,29 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore npm log files
+npm-debug.log
+
+# Ignore logs
+logs
+
+# Ignore the .env file
+.env
+
+# Ignore node_modules directory
+node_modules
+
+# Ignore user-specific files and directories
+npm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE and editor-specific files and directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
